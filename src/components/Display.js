@@ -1,7 +1,8 @@
 import React from 'react'
+import {StyledDisplay} from './styles/StyledDisplay'
 
-const Dipslay = ({gameOver, text }) => (
-    <div>{text}</div>
+const Dipslay = ({gameover, text }) => (
+    <StyledDisplay gameOver={gameover}>{text}</StyledDisplay>
 )
 
 export default Dipslay
